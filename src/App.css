@@ -16,6 +16,68 @@ body {
 .app {
   background-color: #1a1b21;
   max-width: 550px;
-  height: 750px;
   margin: 20px auto;
+  padding: 44px 0;
+}
+
+.card {
+  background-color: #1a1b21;
+  margin: auto;
+  max-width: 317px;
+  background-color: #23252c;
+}
+
+.header {
+  line-height: 1.5rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.card-image {
+  height: 317px;
+  width: 317px;
+}
+
+.name {
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  color: #f3bf99;
+}
+
+.website {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  border-radius: 5px;
+  width: 115px;
+  height: 34px;
+  margin: 8px;
+}
+
+.btn-icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.btn-text {
+  font-size: 15px;
 }
