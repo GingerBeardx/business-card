@@ -1,5 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;600&family=Karla:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #23252c;
+  color: #fff;
+  font-family: Karla, sans-serif;
+  letter-spacing: -0.05rem;
+}
+
+.app {
+  background-color: #1a1b21;
+  max-width: 550px;
+  height: 750px;
+  margin: 20px auto;
 }

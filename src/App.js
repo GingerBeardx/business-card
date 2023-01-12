@@ -1,9 +1,9 @@
-import app from "./app.css"
+import { Card } from "./components"
 
 function App() {
   return (
-    <div className="App">
-      <h2>Business Card</h2>
+    <div className="app">
+      <Card />
     </div>
   )
 }
