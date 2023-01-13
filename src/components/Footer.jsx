@@ -1,5 +1,4 @@
 import React from "react"
-import { Button } from "./"
 import { FaTwitterSquare } from "react-icons/fa"
 import { FaFacebookSquare } from "react-icons/fa"
 import { FaInstagramSquare } from "react-icons/fa"
