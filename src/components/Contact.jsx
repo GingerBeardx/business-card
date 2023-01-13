@@ -1,7 +1,7 @@
 import React from "react"
 import { Button } from "../components"
 import { MdEmail } from "react-icons/md"
-import { AiOutlineLinkedin } from "react-icons/ai"
+import { BsLinkedin } from "react-icons/bs"
 
 const Contact = () => {
   return (
@@ -9,7 +9,7 @@ const Contact = () => {
       <Button text="Email" icon={<MdEmail />} color="#374151" bgColor="#fff" />
       <Button
         text="LinkedIn"
-        icon={<AiOutlineLinkedin />}
+        icon={<BsLinkedin />}
         color="#fff"
         bgColor="#5093E2"
       />
